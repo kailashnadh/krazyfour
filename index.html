@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KRAZY FOUR</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div id="bodymain">
+        <header>
+            <h1>KRAZY FOUR</h1>
+        </header>
+        <div id="navdemo"></div>
+        
+        
+        <main>
+            <div id="logindiv">
+                <div id="values">
+                    <p id="default"></p>
+                    <p id="demo"></p>
+                    <p id="user">Username:kailash<br><br>Password:kailash</p>
+                </div>
+                <br>
+                <div ng-app="myApp" ng-controller="formCtrl">
+                <form id="form_id" method="post" name="myform">
+                    <table id="contactform3">
+                        <tr><td><label><b> Name :</b></label></td><td>
+                            <input type="text" name="username" id="username" ng-model="username"/></td></tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr><td><label><b>Password : </b></label></td><td>
+                                <input type="password" name="password" id="password" ng-model="password"/></td></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr><td colspan=2><input type="button" value="Login" class="divbtn" id="submit" ng-click="validate()"/></td></tr>
+                            </table>
+                        </form>
+                    </div>
+                    </div>
+                    
+                </main>
+                
+                
+            </body>
+            </html>

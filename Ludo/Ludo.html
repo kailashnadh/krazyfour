@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../index.css">
+    
+    <title>LUDO</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ludo</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="../Home/main.html">Home</a></li>
+            <li><a href="../TicTacToe/tictactoe.html">Tic-Tac-Toe</a></li>
+            <li><a href="../Ludo/Ludo.html">Ludo</a></li>
+        </ul>
+    </nav>
+    
+    <div class="wrapper clearfix">
+        <div class="play1 active">
+            <div class="peeru" id="name-0">Player 1</div>
+            <div class="looks" id="score-0">55</div>
+            <div class="box">
+                <div class="player1">Current</div>
+                <div class="player2" id="current-0">0</div>
+            </div>
+        </div>
+        
+        <div class="play2">
+            <div class="peeru" id="name-1">Player 2</div>
+            <div class="looks" id="score-1">55</div>
+            <div class="box">
+                <div class="player1">Current</div>
+                <div class="player2" id="current-1">0</div>
+            </div>
+        </div>
+        <button onclick="logout()">Logout</button>
+        <button class="replay">Replay</button>
+        <button class="roll">Roll the Dice</button>
+        <button class="hold">Hold</button>
+        <img  class="dicedice">
+        
+        
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body{
+    
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    margin-left: 32px;
+}
+
+.intro {
+    font-size: 150%;
+    color: red;
+  }
+#clock{
+    float: left;
+    color:black;
+    font-family: calibri;
+	font-weight:bold;
+	font-size:x-large;
+    margin-left: 32px;
+}
+
+#weather{
+    float: left;
+    color:black;
+    font-family: calibri;
+	font-weight:bold;
+	font-size:x-large;
+    margin-left: -194px;
+    margin-top: 37px;
+}
+header{
+    text-align:center;
+    font-family: Goudy Stout;
+}
+h1{
+    background-color:skyblue;
+    
+}
+nav{
+    font-family: calibri; 
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid gold;
+}
+h2{
+    margin-right: 25%;
+    margin-left: 45%;
+}
+#values {
+    border-style: solid;
+    margin-right: 65%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+#previous{
+    float: left;
+margin-top:4px;
+}
+
+nav li:hover {
+    background-color: grey;
+    color:rgba(25, 83, 159, 1);
+}
+#cc{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8%;
+}
+#logindiv{
+    margin-left: 45%;
+    margin-top: 13%;
+}
+
+#cc th,#cc td,#cc tr{
+    border:1px solid black;
+    padding: 10px;
+    color:black;
+    
+}
+
+#cc td,#cc tr{
+    border-collapse: collapse;
+}
+
+#cc td:hover{
+    background-color: goldenrod;
+}
+
+#cc th:hover{
+    background-color: goldenrod;
+}

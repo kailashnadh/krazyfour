@@ -1,0 +1,152 @@
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    /*  background-image: linear-gradient(rgba(68, 25, 24, 0.6), rgba(66, 24, 24, 0.5)), url(background.jpg);*/
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 340;
+    position: relative;
+    height: 100vh;
+    color: #000aff;
+}
+
+.looks{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 110;
+    color: #671303;
+    margin-bottom: 130px;
+}
+
+.wrapper {
+    width: 1100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #76f2df;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.play1,
+.play2 {
+    width: 50%;
+    float: left;
+    height: 550px;
+    padding: 90px;
+}
+
+
+button {
+    position: absolute;
+    width: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #480c00;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 27px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 350;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+
+
+.peeru {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 120;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.active { background-color: #ffc7c7; }
+.active .name-play { font-weight: 330; }
+
+.active .name-play::after {
+    content: "\2022";
+    font-size: 55px;
+    position: absolute;
+    color: #ef2eca;
+    top: -9px;
+    right: 13px;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.box {
+    background-color: #f77b10;
+    color: #050505;
+    width: 40%;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+}
+
+.player1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #a00000;
+}
+
+.player2 {
+    font-size: 35px;
+}
+
+button:hover { font-weight: 640; }
+button:hover i { margin-right: 20px; }
+
+button:focus {
+    outline: none;
+}
+
+i {
+    color: #4a0c00;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 40px;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-top: -4px;
+    transition: margin 0.5s;
+}
+
+.replay { top: 55px;}
+.roll { top: 420px;}
+.hold { top: 475px;}
+
+.dicedice {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 178px;
+    transform: translateX(-50%);
+    height: 120px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.winner { background-color: rgba(252, 200, 140, 0.99); }
+.winner .peeru { font-weight: 300; color: #e80f0f; }
